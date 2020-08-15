@@ -1,16 +1,14 @@
 import React, { Component } from 'react';
 import './App.css';
-import Ball from './Ball';
+
+import Lottery from './Lottery';
 
 class App extends Component{
   render() {
  return (
     <div className='App'>
-      <Ball num={17} />   
-      <Ball num={13} />
-
-      <Ball num={11} />
-      <Ball num={9} />
+      <Lottery />
+      <Lottery title="Mini Daily" maxNum={10} maxBalls={4} />
       
     </div>
   );
