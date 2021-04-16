@@ -1,0 +1,21 @@
+.building {
+  height: 8vh;
+  display: inline-block;
+  margin: 0 10px 0 20px;
+}
+.AddressAccord {
+  display: inline-block;
+  position: relative;
+  margin-left: 10px;
+}
+.AccordButton {
+  text-align: left;
+  width: 100%;
+  border: none;
+}
+.IconAccord {
+  display: inline-block;
+  position: relative;
+  margin-top: 1rem;
+  margin-left: 10px;
+}
